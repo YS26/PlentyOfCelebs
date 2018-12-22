@@ -39,10 +39,11 @@ public class MatchingSoftware {
 	public static void loadInitialList() throws ParseException {
 		// Male celebrity path for image, first and last name, year of birth, sex, and interests
 			    celebList.add(new Celebrity("Canelo Alvarez.png", "Canelo Alvarez",1990, Sex.male, Interest.Boxer, Interest.Movies, Interest.Boating));   
-				celebList.add(new Celebrity("Alex Pettyfer.png", "Alex Pettyfer",1990, Sex.male, Interest.Actor, Interest.Movies, Interest.Entertainment));   
-				celebList.add(new Celebrity("Dev Patel.png", "Dev Patel",1990, Sex.male, Interest.Actor, Interest.Ski, Interest.Beer)); 
-				celebList.add(new Celebrity("Yao Sedzro.png", "Yao Sedzro",1995, Sex.male, Interest.Investor, Interest.Golf, Interest.Engineer));  
-				celebList.add(new Celebrity("Sean Kingston.png", "Sean Kingston",1990, Sex.male, Interest.Singer, Interest.Activist, Interest.Acting));   
+				celebList.add(new Celebrity("Alex Pettyfer.png", "Alex Pettyfer",1990, Sex.male, Interest.Actor, Interest.Movies, Interest.Entertainment));
+				celebList.add(new Celebrity("Carlos Chavez.png", "Carlos Chavez",1993, Sex.male, Interest.Entertainment, Interest.Technology, Interest.Soccer));
+				celebList.add(new Celebrity("Yao Sedzro.png", "Yao Sedzro",1995, Sex.male, Interest.Investor, Interest.Golf, Interest.Engineer));
+				celebList.add(new Celebrity("Marcel Millan.png", "Marcel Millan",1990, Sex.male, Interest.Student, Interest.Soccer, Interest.Technology));
+				celebList.add(new Celebrity("Sean Kingston.png", "Sean Kingston",1990, Sex.male, Interest.Singer, Interest.Activist, Interest.Acting));
 				celebList.add(new Celebrity("Chris Colfer.png", "Chris Colfer",1990, Sex.male, Interest.Actor, Interest.Glee, Interest.Beer));   
 				celebList.add(new Celebrity("The Weeknd.png", "The Weeknd",1990, Sex.male, Interest.Rap, Interest.Music, Interest.Entertainment));  
 				celebList.add(new Celebrity("Ryan Higa.png", "Ryan Higa",1990, Sex.male, Interest.Acting, Interest.Entertainment, Interest.Beer));   
@@ -52,8 +53,7 @@ public class MatchingSoftware {
 				celebList.add(new Celebrity("John Wall.png", "John Wall",1990, Sex.male, Interest.Athelete, Interest.Basketball, Interest.Boating));  
 				celebList.add(new Celebrity("Klay Thompson.png", "Klay Thompson",1990, Sex.male, Interest.Athelete, Interest.Basketball, Interest.Technology));   
 				celebList.add(new Celebrity("Draymond Green.png", "Draymond Green",1990, Sex.male, Interest.Athelete, Interest.Movies, Interest.Basketball));  
-				celebList.add(new Celebrity("Eric Nam.png", "Eric Nam",1990, Sex.male, Interest.Singer, Interest.Travelling, Interest.Singing));   
-				celebList.add(new Celebrity("Marcel Millan.png", "Marcel Millan",1990, Sex.male, Interest.Student, Interest.Soccer, Interest.Technology));      
+				celebList.add(new Celebrity("Eric Nam.png", "Eric Nam",1990, Sex.male, Interest.Singer, Interest.Travelling, Interest.Singing));
 				celebList.add(new Celebrity("Dax Shepard.png", "Dax Shepard",1975, Sex.male, Interest.Actor, Interest.Writer, Interest.Languages));  
 				celebList.add(new Celebrity("Tito Ortiz.png", "Tito Ortiz",1975, Sex.male, Interest.Athelete, Interest.MMA, Interest.Languages));  
 				celebList.add(new Celebrity("Will Smith.png", "Will Smith",1975, Sex.male, Interest.Actor, Interest.Music, Interest.Golf));   
@@ -164,6 +164,7 @@ public class MatchingSoftware {
 				celebList.add(new Celebrity("Suzi Quatro.png","Suzi Quatro",1950, Sex.female, Interest.Comedy, Interest.Radio, Interest.Opera)); 
 				celebList.add(new Celebrity("Nancy Sit.png.png","Nancy Sit",1950, Sex.female, Interest.Movies, Interest.Comedy, Interest.Technology));
 	}
+	
 	
 	public static void generateInterestList() { // linkedlist of celebrities 
 		LinkedList<Celebrity> males = new LinkedList<Celebrity>();
