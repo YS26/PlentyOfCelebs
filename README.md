@@ -8,5 +8,6 @@ his or her possible matches. Additionally, if the user wants to see their previo
 This simple fun program uses the following data structures ArrayList, LinkedList, HashMap, Priority Queue, and Stacks. 
 
 Running the program: 
+
 I highly recommend using Eclipse to run the program, I had some issues with Jgrasp, 
 and Intellij on loading up the celebrity images. 
