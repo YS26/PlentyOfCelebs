@@ -11,3 +11,4 @@ Running the program:
 
 I highly recommend using Eclipse to run the program, I had some issues with Jgrasp, 
 and Intellij on loading up the celebrity images. 
+
