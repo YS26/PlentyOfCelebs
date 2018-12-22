@@ -30,7 +30,7 @@ public class CompileFrame extends JPanel {
 		this.setLayout(new BorderLayout());
 		
 		// message of screen
-		title = new JLabel("Welcome to Celeberity Match Maker");
+		title = new JLabel("Welcome to PlentyOfCelebs");
 		title.setFont(new Font("Arial", Font.BOLD, 14));
 		title.setForeground(Color.BLACK);
 		// message of screen
