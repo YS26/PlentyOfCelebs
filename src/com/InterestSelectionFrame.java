@@ -42,7 +42,7 @@ public class InterestSelectionFrame extends JPanel {
 	public void init() {
 		this.setLayout(new BorderLayout());
 		
-		title = new JLabel("Welcome to Celeberity Match Maker");
+		title = new JLabel("Welcome to PlentyOfCelebs");
 		title.setFont(new Font("Arial", Font.BOLD, 14));
 		title.setForeground(Color.BLACK);
 		
